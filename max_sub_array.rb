@@ -1,5 +1,8 @@
 # 找到最大子数组算法
+# 最大子数组：数组A中，子数组和最大则为最大子数组
 # 分治法
+# 最大子数组一定位于左数组，右数组或者2者之间，那就找到这3种情况的最大子数组，左数组和
+#右数组递归，则只需要求2者之间的最大子数组
 
 def find_cross_sub_array(arr, low, mid, high)
 	# 找到左边数组arr[i..mid]的最大子数组
@@ -33,6 +36,10 @@ def find_cross_sub_array(arr, low, mid, high)
 	[left_low, right_high, arr[left_low..mid].concat(arr[(mid + 1)..right_high]).sum]
 end
 
+# params arr 输入数组
+# params i 数组左边界
+# params j 数组右边界
+# return 找到的最大子数组左边界，右边界，和值
 def find_sub_array(arr, i, j)
 	if i == j
 		return [i, j, arr[i]] 
