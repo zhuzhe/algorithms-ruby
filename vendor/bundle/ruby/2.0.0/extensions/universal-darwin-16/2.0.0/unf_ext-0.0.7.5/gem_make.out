@@ -1,0 +1,17 @@
+current directory: /Users/zhuzhe/Workbeach/ruby-algorithms/vendor/bundle/ruby/2.0.0/gems/unf_ext-0.0.7.5/ext/unf_ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20180224-25266-5ysr0x.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+current directory: /Users/zhuzhe/Workbeach/ruby-algorithms/vendor/bundle/ruby/2.0.0/gems/unf_ext-0.0.7.5/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/zhuzhe/Workbeach/ruby-algorithms/vendor/bundle/ruby/2.0.0/gems/unf_ext-0.0.7.5/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/zhuzhe/Workbeach/ruby-algorithms/vendor/bundle/ruby/2.0.0/gems/unf_ext-0.0.7.5/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20180224-25266-3ubf5y
+installing default unf_ext libraries

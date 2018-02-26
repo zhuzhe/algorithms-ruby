@@ -1,0 +1,2 @@
+"pkg-config --exists libiconv"
+package configuration for libiconv is not found

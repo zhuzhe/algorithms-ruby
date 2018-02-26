@@ -1,0 +1,41 @@
+current directory: /Users/zhuzhe/Workbeach/ruby-algorithms/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.6.3.1/ext/nokogiri
+/Users/zhuzhe/.rvm/rubies/ruby-2.5.0/bin/ruby -r ./siteconf20180225-86411-tvpdsg.rb extconf.rb
+Building nokogiri using packaged libraries.
+-----
+libiconv is missing.  please visit http://nokogiri.org/tutorials/installing_nokogiri.html for help with installing dependencies.
+-----
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/zhuzhe/.rvm/rubies/ruby-2.5.0/bin/$(RUBY_BASE_NAME)
+	--help
+	--clean
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--enable-cross-build
+	--disable-cross-build
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/zhuzhe/Workbeach/ruby-algorithms/vendor/bundle/ruby/2.5.0/extensions/x86_64-darwin-17/2.5.0/nokogiri-1.6.3.1/mkmf.log
+
+extconf failed, exit code 1
