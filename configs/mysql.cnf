@@ -30,11 +30,9 @@ default-character-set=utf8
 [mysqld_safe]
 socket        = /var/run/mysqld/mysqld.sock
 nice        = 0
-#libo add
 open-files-limit = 8192
 
 [mysqld]
-#libo  add
 read_buffer_size = 5M
 table_open_cache = 2048
 read_rnd_buffer_size = 64M
