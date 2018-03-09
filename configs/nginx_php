@@ -1,0 +1,12 @@
+server {
+    listen 7777;
+    server_name 112.74.132.42;
+    root /home/gamever/www/mantis;
+    index index.php index.html index.htm;
+    location ~ \.php$ {
+            fastcgi_pass   127.0.0.1:9000;
+            fastcgi_index  index.php;
+            fastcgi_param  SCRIPT_FILENAME /home/gamever/www/mantis/$fastcgi_script_name; #必须的，不然会出现No input file specified.
+            include        fastcgi_params;
+    }
+}
